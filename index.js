@@ -19,6 +19,11 @@ app.use(
     cors({origin:"http://localhost:3000"})
 )
 
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    next();
+});
+
 
 app.use('/', Home);
 app.use('/', Works)
