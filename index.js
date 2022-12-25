@@ -18,7 +18,7 @@ app.use(cookieParser());
 //other imports
 app.use(
     cors({
-      origin: ["http://localhost:3000", "http://dheeraj.tech/"],
+      origin: ["http://dheeraj.tech/", "http://localhost:3000"],
       credentials: true
     })
 )
