@@ -17,7 +17,8 @@ const postProblem = async (req, res) => {
             ProblemTestCases,
             ProblemApproachParas, 
             ProblemCode,
-            ProblemCreatedAt
+            ProblemCreatedAt,
+            ProblemLink
         } = problem;
 
 
@@ -30,7 +31,8 @@ const postProblem = async (req, res) => {
             ProblemTestCases,
             ProblemApproachParas,
             ProblemCode,
-            ProblemCreatedAt
+            ProblemCreatedAt,
+            ProblemLink
         })
         
 

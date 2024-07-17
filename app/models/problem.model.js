@@ -12,7 +12,8 @@ const ProblemSchema = new Schema({
     ProblemTestCases:           Array,
     ProblemApproachParas:       Array,
     ProblemCode:                Array,
-    ProblemCreatedAt:           String
+    ProblemCreatedAt:           String,
+    ProblemLink:                String,
 })
 
 module.exports = mongoose.model("Problem", ProblemSchema);

@@ -23,6 +23,7 @@ const postHomeDetails = async (req, res) => {
 }
 
 const getHomeDetails = async (req, res) => {
+    console.log("Get Home")
     try {
 
         const {navHeading } = req.query;
@@ -30,6 +31,7 @@ const getHomeDetails = async (req, res) => {
         var ans = {};
         const r = await Home.find({});
         ans = r[0];
+        console.log(ans);
         
         res.send({
             msg:ans

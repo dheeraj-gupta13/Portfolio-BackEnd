@@ -18,7 +18,7 @@ app.use(cookieParser());
 //other imports
 app.use(
     cors({
-      origin: ["http://dheeraj.tech/", "http://localhost:3000"],
+      origin: "https://portfolio-front-end-pi.vercel.app/",
       credentials: true
     })
 )
