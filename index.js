@@ -18,7 +18,7 @@ app.use(cookieParser());
 //other imports
 app.use(
     cors({
-      origin: "https://portfolio-front-end-pi.vercel.app/",
+      origin: "https://portfolio-front-end-pi.vercel.app",
       credentials: true
     })
 )
